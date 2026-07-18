@@ -3,8 +3,8 @@
 import React, { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, Filter, ChevronRight, Home, Package, Star } from 'lucide-react';
-import EnquiryModal from '../components/EnquiryModal';
 import ScrollReveal from '../components/ScrollToTop';
+import EnquiryModal from '../components/EnquiryModal';
 
 const CATEGORIES = [
   { id: 'all',     name: 'All Products' },
