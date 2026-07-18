@@ -115,7 +115,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2.5 group flex-shrink-0 min-w-0">
             <img
-              src="/public/images/logo.png"
+              src="/images/logo.png"
               alt="Shree Narayani Thread & Jari logo"
               width={44}
               height={44}
@@ -255,7 +255,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between mb-6 border-b border-stone-200 pb-5">
             <Link to="/" className="flex items-center gap-3 min-w-0">
               <img
-                src="/public/images/logo.png"
+                src="/images/logo.png"
                 alt="Shree Narayani Thread & Jari logo"
                 width={44}
                 height={44}

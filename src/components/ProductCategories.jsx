@@ -14,7 +14,7 @@ import ScrollToTop from './ScrollToTop'; // ScrollReveal wrapper
 // highlights pulled from inside those categories, so every card links to
 // something that genuinely exists in the catalog.
 //
-// `img` follows the same /public/images/<file>.png convention already used
+// `img` follows the same /images/<file>.png convention already used
 // in Products.jsx, so these pick up real product photos automatically —
 // no external/stock URLs.
 // ----------------------------------------------------------------------------
@@ -24,42 +24,42 @@ const PRODUCT_CATEGORIES = [
     name: 'Cording Threads',
     count: '15+ Varieties',
     desc: 'Pita, vall, kat, jardosi & more — our full range of decorative and embroidery cording.',
-    img: '/public/images/cording2.png',
+    img: '/images/cording2.png',
   },
   {
     slug: 'jari',
     name: 'Zari (Jari) Threads',
     count: '8+ Varieties',
     desc: 'Kasab, rasal, chapat & multi-colour zari with rich, consistent metallic shine.',
-    img: '/public/images/jari1.png',
+    img: '/images/jari1.png',
   },
   {
     slug: 'nylon',
     name: 'Nylon Threads',
     count: '7+ Varieties',
     desc: 'Monofilament and polyester-nylon blends across every common gauge.',
-    img: '/public/images/nylon1.png',
+    img: '/images/nylon1.png',
   },
   {
     slug: 'fancy-cording',
     name: 'Fancy & Sparkle Cording',
     count: '5+ Designs',
     desc: 'Galiter, diamond-cut and fancy cording for standout festive and fashion pieces.',
-    img: '/public/images/cording7.png',
+    img: '/images/cording7.png',
   },
   {
     slug: 'premium-jari',
     name: 'Premium Kasab Zari',
     count: '3+ Finishes',
     desc: 'Kasab, sequence chapat and diamond-finish zari for high-shine premium work.',
-    img: '/public/images/jari8.png',
+    img: '/images/jari8.png',
   },
   {
     slug: 'fine-nylon',
     name: 'Fine Gauge Nylon',
     count: '6 Gauges',
     desc: 'Precision nylon threads from 0.09mm to 0.16mm for delicate to heavy-duty work.',
-    img: '/public/images/nylon6.png',
+    img: '/images/nylon6.png',
   },
 ];
 

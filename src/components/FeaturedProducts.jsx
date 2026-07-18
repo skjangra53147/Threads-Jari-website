@@ -18,7 +18,7 @@ import EnquiryModals from './EnquiryModals';
 //   • `rating` isn't wired to any real review system.
 // Swap these for real numbers the moment they exist; until then they're
 // just there to match the visual design. `img` follows the same
-// /public/images/<file>.png convention as Products.jsx, so these pick up
+// /images/<file>.png convention as Products.jsx, so these pick up
 // real product photos automatically.
 // ----------------------------------------------------------------------------
 const FEATURED_PRODUCTS = [
@@ -28,7 +28,7 @@ const FEATURED_PRODUCTS = [
     price: '₹1,250/kg', // placeholder — replace with real price
     badge: 'Best Seller',
     rating: 4.9, // placeholder — replace with real rating
-    img: '/public/images/jari1.png',
+    img: '/images/jari1.png',
     desc: 'Premium 180 denier kasab jari, prized for its rich metallic shine.',
   },
   {
@@ -37,7 +37,7 @@ const FEATURED_PRODUCTS = [
     price: '₹1,100/kg', // placeholder — replace with real price
     badge: 'Popular',
     rating: 4.8, // placeholder — replace with real rating
-    img: '/public/images/jari2.png',
+    img: '/images/jari2.png',
     desc: '110 denier nylon jari offering strength with a fine, smooth finish.',
   },
   {
@@ -46,7 +46,7 @@ const FEATURED_PRODUCTS = [
     price: '₹1,500/kg', // placeholder — replace with real price
     badge: 'Trending',
     rating: 4.9, // placeholder — replace with real rating
-    img: '/public/images/cording7.png',
+    img: '/images/cording7.png',
     desc: 'Glittery galiter cording with a bright, eye-catching sparkle.',
   },
 ];

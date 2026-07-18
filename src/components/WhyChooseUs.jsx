@@ -85,7 +85,7 @@ export default function WhyChooseUs() {
             <div className="relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                 <img
-                  src="/public/images/image6.png"
+                  src="/images/image6.png"
                   alt="Quality Manufacturing"
                   className="w-full h-[560px] object-cover"
                 />

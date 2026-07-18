@@ -79,7 +79,7 @@ export default function Contact() {
   return (
     <div>
       {/* ── HEADER ── */}
-      <section className="contact-header relative overflow-hidden bg-[url('/public/images/image5.png')] bg-cover bg-center bg-no-repeat px-4 py-10 sm:py-12 md:py-14">
+      <section className="contact-header relative overflow-hidden bg-[url('/images/image5.png')] bg-cover bg-center bg-no-repeat px-4 py-10 sm:py-12 md:py-14">
         {/* Dark scrim so text stays legible over the photo on any screen size */}
         <div className="absolute inset-0 bg-stone-950/70" />
 

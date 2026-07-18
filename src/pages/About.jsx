@@ -63,7 +63,7 @@ export default function About() {
   return (
     <div>
       {/* ── HEADER ── */}
-      <section className="about-header relative overflow-hidden bg-[url('/public/images/image6.png')] bg-cover bg-center bg-no-repeat px-4 py-10 sm:py-12 md:py-14">
+      <section className="about-header relative overflow-hidden bg-[url('/images/image6.png')] bg-cover bg-center bg-no-repeat px-4 py-10 sm:py-12 md:py-14">
         {/* Dark scrim so text stays legible over the photo on any screen size */}
         <div className="absolute inset-0 bg-stone-950/70" />
 
@@ -223,19 +223,19 @@ export default function About() {
 
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-2xl overflow-hidden shadow-lg h-40 sm:h-48">
-                <img src="/public/images/image15.png"
+                <img src="/images/image15.png"
                   alt="Thread" className="w-full h-full object-cover" />
               </div>
               <div className="rounded-2xl overflow-hidden shadow-lg h-40 sm:h-48 mt-6">
-                <img src="/public/images/image4.png"
+                <img src="/images/image4.png"
                   alt="Zari" className="w-full h-full object-cover" />
               </div>
               <div className="rounded-2xl overflow-hidden shadow-lg h-40 sm:h-48">
-                <img src="/public/images/image13.png"
+                <img src="/images/image13.png"
                   alt="Manufacturing" className="w-full h-full object-cover" />
               </div>
               <div className="rounded-2xl overflow-hidden shadow-lg h-40 sm:h-48 mt-6">
-                <img src="/public/images/image10.png"
+                <img src="/images/image10.png"
                   alt="Thread" className="w-full h-full object-cover" />
               </div>
             </div>
@@ -304,7 +304,7 @@ export default function About() {
                 style={facilityImgHeight ? { height: `${facilityImgHeight}px` } : undefined}
               >
                 <img
-                  src="/public/images/image3.png"
+                  src="/images/image3.png"
                   alt="Shree Narayani manufacturing facility"
                   className="w-full h-full object-cover"
                 />

@@ -34,98 +34,98 @@ const FALLBACK_IMG =
 // ----------------------------------------------------------------------------
 const PRODUCTS = [
   // ── Cording Threads ──
-  { id: 1,  name: 'Pita Cording',        cat: 'cording', img: '/public/images/cording2.png',
+  { id: 1,  name: 'Pita Cording',        cat: 'cording', img: '/images/cording2.png',
     price: '₹950/kg', rating: 4.7, badge: 'Popular', // placeholder — replace with real data
     desc: 'Classic flat pita cording, widely used for borders and decorative trims.' },
-  { id: 2,  name: 'Vall Cording',        cat: 'cording', img: '/public/images/cording1.png',
+  { id: 2,  name: 'Vall Cording',        cat: 'cording', img: '/images/cording1.png',
     price: '₹880/kg', rating: 4.6, // placeholder — replace with real data
     desc: 'Twisted vall cording with a smooth, even finish for everyday embroidery work.' },
-  { id: 3,  name: 'Kat Cording',         cat: 'cording', img: '/public/images/cording3.png',
+  { id: 3,  name: 'Kat Cording',         cat: 'cording', img: '/images/cording3.png',
     price: '₹820/kg', rating: 4.5, // placeholder — replace with real data
     desc: 'Fine kat cording, popular for lightweight embellishment and edging.' },
-  { id: 4,  name: 'Jardosi Cording',     cat: 'cording', img: '/public/images/cording4.png',
+  { id: 4,  name: 'Jardosi Cording',     cat: 'cording', img: '/images/cording4.png',
     price: '₹1,050/kg', rating: 4.7, // placeholder — replace with real data
     desc: 'Rich jardosi-finish cording that adds a traditional, festive shine.' },
-  { id: 5,  name: 'Battan Cording',      cat: 'cording', img: '/public/images/cording5.png',
+  { id: 5,  name: 'Battan Cording',      cat: 'cording', img: '/images/cording5.png',
     price: '₹900/kg', rating: 4.5, // placeholder — replace with real data
     desc: 'Sturdy battan cording built for durable decorative applications.' },
-  { id: 6,  name: 'Fancy Cording',       cat: 'cording', img: '/public/images/cording6.png',
+  { id: 6,  name: 'Fancy Cording',       cat: 'cording', img: '/images/cording6.png',
     price: '₹1,150/kg', rating: 4.8, // placeholder — replace with real data
     desc: 'Multi-colour fancy cording for standout fashion and festive designs.' },
-  { id: 7,  name: 'Galiter Cording',     cat: 'cording', img: '/public/images/cording7.png',
+  { id: 7,  name: 'Galiter Cording',     cat: 'cording', img: '/images/cording7.png',
     price: '₹1,500/kg', rating: 4.9, badge: 'Trending', // placeholder — replace with real data
     desc: 'Glittery galiter cording with a bright, eye-catching sparkle.' },
-  { id: 8,  name: 'Galiter Jardosi',     cat: 'cording', img: '/public/images/cording8.png',
+  { id: 8,  name: 'Galiter Jardosi',     cat: 'cording', img: '/images/cording8.png',
     price: '₹1,350/kg', rating: 4.6, // placeholder — replace with real data
     desc: 'Galiter and jardosi combination finish for a richer, layered shine.' },
-  { id: 9,  name: 'Galiter TPM',         cat: 'cording', img: '/public/images/cording9.png',
+  { id: 9,  name: 'Galiter TPM',         cat: 'cording', img: '/images/cording9.png',
     price: '₹1,300/kg', rating: 4.6, // placeholder — replace with real data
     desc: 'Galiter TPM cording, a fine-twist variant suited to detailed embroidery.' },
-  { id: 10, name: 'Salmo Cording',       cat: 'cording', img: '/public/images/cording10.png',
+  { id: 10, name: 'Salmo Cording',       cat: 'cording', img: '/images/cording10.png',
     price: '₹880/kg', rating: 4.5, // placeholder — replace with real data
     desc: 'Smooth salmo cording in warm tones, ideal for traditional wear.' },
-  { id: 11, name: 'Diamond Cording',     cat: 'cording', img: '/public/images/cording11.png',
+  { id: 11, name: 'Diamond Cording',     cat: 'cording', img: '/images/cording11.png',
     price: '₹1,600/kg', rating: 4.8, // placeholder — replace with real data
     desc: 'Diamond-cut cording with a faceted sparkle for premium finishes.' },
-  { id: 12, name: 'Jutt TPM',            cat: 'cording', img: '/public/images/cording12.png',
+  { id: 12, name: 'Jutt TPM',            cat: 'cording', img: '/images/cording12.png',
     price: '₹950/kg', rating: 4.5, // placeholder — replace with real data
     desc: 'Textured jutt TPM cording woven for a distinct multi-tone look.' },
-  { id: 13, name: 'Bullet Dori',         cat: 'cording', img: '/public/images/cording13.png',
+  { id: 13, name: 'Bullet Dori',         cat: 'cording', img: '/images/cording13.png',
     price: '₹1,020/kg', rating: 4.6, // placeholder — replace with real data
     desc: 'Beaded bullet dori with a rounded, uniform bead pattern.' },
-  { id: 14, name: 'Bullet TPM',          cat: 'cording', img: '/public/images/cording14.png',
+  { id: 14, name: 'Bullet TPM',          cat: 'cording', img: '/images/cording14.png',
     price: '₹1,080/kg', rating: 4.6, // placeholder — replace with real data
     desc: 'Bullet TPM cording combining bead texture with twisted strength.' },
-  { id: 15, name: 'Anarkali Cording',    cat: 'cording', img: '/public/images/cording15.png',
+  { id: 15, name: 'Anarkali Cording',    cat: 'cording', img: '/images/cording15.png',
     price: '₹1,200/kg', rating: 4.7, // placeholder — replace with real data
     desc: 'Anarkali-style cording, a graceful finish suited to ethnic garments.' },
 
   // ── Zari (Jari) Threads ──
-  { id: 16, name: 'Kasab Jari 180D',        cat: 'jari', img: '/public/images/jari1.png',
+  { id: 16, name: 'Kasab Jari 180D',        cat: 'jari', img: '/images/jari1.png',
     price: '₹1,250/kg', rating: 4.9, badge: 'Best Seller', // placeholder — replace with real data
     desc: 'Premium 180 denier kasab jari, prized for its rich metallic shine.' },
-  { id: 17, name: 'Nylon Jari 110D',        cat: 'jari', img: '/public/images/jari2.png',
+  { id: 17, name: 'Nylon Jari 110D',        cat: 'jari', img: '/images/jari2.png',
     price: '₹1,100/kg', rating: 4.8, // placeholder — replace with real data
     desc: '110 denier nylon jari offering strength with a fine, smooth finish.' },
-  { id: 18, name: 'Neem Jari',              cat: 'jari', img: '/public/images/jari3.png',
+  { id: 18, name: 'Neem Jari',              cat: 'jari', img: '/images/jari3.png',
     price: '₹980/kg', rating: 4.6, // placeholder — replace with real data
     desc: 'Neem jari with a soft, subtle sheen for everyday embroidery.' },
-  { id: 19, name: 'Rasal Jari',             cat: 'jari', img: '/public/images/jari4.png',
+  { id: 19, name: 'Rasal Jari',             cat: 'jari', img: '/images/jari4.png',
     price: '₹1,020/kg', rating: 4.6, // placeholder — replace with real data
     desc: 'Rasal jari known for its smooth texture and consistent finish.' },
-  { id: 20, name: 'Chapat Jari',            cat: 'jari', img: '/public/images/jari5.png',
+  { id: 20, name: 'Chapat Jari',            cat: 'jari', img: '/images/jari5.png',
     price: '₹1,080/kg', rating: 4.7, // placeholder — replace with real data
     desc: 'Flat chapat jari, well suited to broad decorative embroidery work.' },
-  { id: 21, name: 'Sequence Chapat Jari',   cat: 'jari', img: '/public/images/jari6.png',
+  { id: 21, name: 'Sequence Chapat Jari',   cat: 'jari', img: '/images/jari6.png',
     price: '₹1,300/kg', rating: 4.8, // placeholder — replace with real data
     desc: 'Chapat jari with a sequence-style shimmer for statement pieces.' },
-  { id: 22, name: 'Multi Colour Jari',      cat: 'jari', img: '/public/images/jari7.png',
+  { id: 22, name: 'Multi Colour Jari',      cat: 'jari', img: '/images/jari7.png',
     price: '₹1,150/kg', rating: 4.7, // placeholder — replace with real data
     desc: 'Multi-colour jari for vibrant, contemporary embroidery designs.' },
-  { id: 23, name: 'Diamond Jari',           cat: 'jari', img: '/public/images/jari8.png',
+  { id: 23, name: 'Diamond Jari',           cat: 'jari', img: '/images/jari8.png',
     price: '₹1,450/kg', rating: 4.9, // placeholder — replace with real data
     desc: 'Diamond-finish jari with a faceted, high-shine appearance.' },
 
   // ── Nylon Threads ──
-  { id: 24, name: 'Nylon Mono',              cat: 'nylon', img: '/public/images/nylon1.png',
+  { id: 24, name: 'Nylon Mono',              cat: 'nylon', img: '/images/nylon1.png',
     price: '₹650/kg', rating: 4.6, badge: 'New', // placeholder — replace with real data
     desc: 'Monofilament nylon thread valued for its strength and clarity.' },
-  { id: 25, name: 'Polyester Nylon 0.11mm',  cat: 'nylon', img: '/public/images/nylon2.png',
+  { id: 25, name: 'Polyester Nylon 0.11mm',  cat: 'nylon', img: '/images/nylon2.png',
     price: '₹700/kg', rating: 4.5, // placeholder — replace with real data
     desc: 'Polyester-nylon blend at 0.11mm gauge for fine, precise work.' },
-  { id: 26, name: 'Polyester Nylon 0.10mm',  cat: 'nylon', img: '/public/images/nylon3.png',
+  { id: 26, name: 'Polyester Nylon 0.10mm',  cat: 'nylon', img: '/images/nylon3.png',
     price: '₹680/kg', rating: 4.5, // placeholder — replace with real data
     desc: 'Polyester-nylon blend at 0.10mm gauge for lightweight applications.' },
-  { id: 27, name: 'Nylon 0.12mm',            cat: 'nylon', img: '/public/images/nylon4.png',
+  { id: 27, name: 'Nylon 0.12mm',            cat: 'nylon', img: '/images/nylon4.png',
     price: '₹620/kg', rating: 4.5, // placeholder — replace with real data
     desc: 'Standard 0.12mm nylon thread, a versatile everyday gauge.' },
-  { id: 28, name: 'Nylon 0.14mm',            cat: 'nylon', img: '/public/images/nylon5.png',
+  { id: 28, name: 'Nylon 0.14mm',            cat: 'nylon', img: '/images/nylon5.png',
     price: '₹660/kg', rating: 4.6, // placeholder — replace with real data
     desc: '0.14mm nylon thread offering extra strength for heavier work.' },
-  { id: 29, name: 'Nylon 0.16mm',            cat: 'nylon', img: '/public/images/nylon6.png',
+  { id: 29, name: 'Nylon 0.16mm',            cat: 'nylon', img: '/images/nylon6.png',
     price: '₹700/kg', rating: 4.6, // placeholder — replace with real data
     desc: '0.16mm nylon thread, our thickest gauge for demanding applications.' },
-  { id: 30, name: 'Nylon 0.09mm',            cat: 'nylon', img: '/public/images/nylon7.png',
+  { id: 30, name: 'Nylon 0.09mm',            cat: 'nylon', img: '/images/nylon7.png',
     price: '₹600/kg', rating: 4.5, // placeholder — replace with real data
     desc: 'Fine 0.09mm nylon thread suited to delicate, detailed embroidery.' },
 ]

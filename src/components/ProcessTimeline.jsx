@@ -9,37 +9,37 @@ const PROCESS_STEPS = [
     step: '01',
     title: 'Raw Material',
     desc: 'High quality metallic yarn, polyester & nylon selected carefully.',
-    img: '/public/images/image15.png',
+    img: '/images/image15.png',
   },
   {
     step: '02',
     title: 'Thread Making',
     desc: 'Yarns are twisted and wound to ensure strength & shine.',
-    img: '/public/images/image11.png',
+    img: '/images/image11.png',
   },
   {
     step: '03',
     title: 'Zari Wrapping',
     desc: 'Metallic strips are precisely wrapped to create zari.',
-    img: '/public/images/image19.png',
+    img: '/images/image19.png',
   },
   {
     step: '04',
     title: 'Dyeing & Finishing',
     desc: 'Dyed with skin-friendly colors and finished for long lasting shine.',
-    img: '/public/images/image17.png',
+    img: '/images/image17.png',
   },
   {
     step: '05',
     title: 'Quality Check',
     desc: 'Every spool is tested for strength, color fastness & shine.',
-    img: '/public/images/image9.png',
+    img: '/images/image9.png',
   },
   {
     step: '06',
     title: 'Packing & Delivery',
     desc: 'Carefully packed and delivered across India with trust.',
-    img: '/public/images/image10.png',
+    img: '/images/image10.png',
   },
 ];
 

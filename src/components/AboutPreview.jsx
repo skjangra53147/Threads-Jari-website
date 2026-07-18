@@ -20,7 +20,7 @@ export default function AboutPreview() {
             <div className="relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                 <img
-                  src="/public/images/image4.png"
+                  src="/images/image4.png"
                   alt="Manufacturing"
                   className="w-full h-[460px] object-cover"
                 />
