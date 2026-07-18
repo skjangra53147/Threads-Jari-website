@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Star, ChevronRight } from 'lucide-react';
-import EnquiryModal from './EnquiryModal';
 import ScrollToTop from './ScrollToTop'; // ScrollReveal wrapper
+import EnquiryModals from './EnquiryModals';
 
 
 // ----------------------------------------------------------------------------
@@ -185,7 +185,7 @@ export default function FeaturedProducts() {
         }
       `}</style>
 
-      <EnquiryModal
+      <EnquiryModals
         product={selectedProduct}
         isOpen={modalOpen}
         onClose={closeEnquiry}

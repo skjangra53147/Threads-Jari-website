@@ -4,7 +4,7 @@ import React, { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, Filter, ChevronRight, Home, Package, Star } from 'lucide-react';
 import ScrollReveal from '../components/ScrollToTop';
-import EnquiryModal from '../components/EnquiryModal';
+import EnquiryModals from '../components/EnquiryModals';
 
 const CATEGORIES = [
   { id: 'all',     name: 'All Products' },
@@ -433,7 +433,7 @@ export default function Products() {
       </section>
 
       {/* Enquiry Popup */}
-      <EnquiryModal
+      <EnquiryModals
         product={selectedProduct}
         isOpen={modalOpen}
         onClose={closeEnquiry}

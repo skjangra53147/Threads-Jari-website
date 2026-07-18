@@ -6,41 +6,6 @@ import {
   MessageSquare, Tag, ShieldCheck, Palette, Truck,
 } from 'lucide-react';
 
-
-/**
- * EnquiryModal — "Spool & Seam" layout
- * ------------------------------------------------------------------
- * v2 — Image sizing fix + polish pass:
- *
- *   1. IMAGE FIX (the actual bug): the old version forced the product
- *      photo into a short fixed-height box (h-36 → h-56) with
- *      object-cover, which zoomed/cropped thread & spool photos
- *      unpredictably — sometimes cutting off half the product.
- *      Now it uses the SAME aspect-ratio + object-contain pattern as
- *      the Products grid (ProductImage), on a soft tinted backdrop,
- *      so the *entire* photo is always visible, never cropped, and
- *      scales cleanly at every breakpoint.
- *
- *   2. Because object-contain no longer guarantees a dark region for
- *      white overlay text, the title/category block has been moved
- *      OFF the image and into its own header strip below it — more
- *      reliable for legibility and reads as more "premium catalog",
- *      less "poster overlay".
- *
- *   3. Added the same shimmer loading state used on the Products page
- *      for visual consistency between grid → modal.
- *
- *   4. Kept the hand-stitched "seam" divider (unique brand touch for
- *      a thread business) and the amber/stone palette, tightened
- *      spacing and focus states throughout.
- *
- * Props:
- * - product   : { id, name, img, desc, cat, price?, rating? } | null
- * - isOpen    : boolean
- * - onClose   : () => void
- */
-
-// Kept in sync with the category ids used in Products.jsx
 const CATEGORY_LABELS = {
   cording: 'Cording Threads',
   jari: 'Zari (Jari) Threads',
@@ -97,7 +62,7 @@ const ModalProductImage = ({ src, alt }) => {
   );
 };
 
-export default function EnquiryModal({ product, isOpen, onClose }) {
+export default function EnquiryModals({ product, isOpen, onClose }) {
   const [form, setForm] = useState({ name: '', phone: '', email: '', quantity: '', message: '' });
   const [status, setStatus] = useState('idle'); // idle | sending | success | error
   const dialogRef = useRef(null);
